@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReWoven Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+    <nav class="navbar">
+        <div class="logo">ReWoven</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>ReWoven</h1>
+            <p>Sustainable fashion crafted from tradition. Wear purpose. Wear ReWoven.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section class="products">
+    <h2>Our Collection</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="hobby collector.jpg">
+            <h3>Eco Tote Bags</h3>
+            <p>Handcrafted woven tote bags made from sustainable materials.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="Jess Meany.jpg">
+            <h3>Sustainable Clothing</h3>
+            <p>Modern fashion created from recycled and woven fabrics.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="download.jpg">
+            <h3>Artisan Collection</h3>
+            <p>Unique pieces designed by skilled local artisans.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<footer>
+    <h3>ReWoven Clothing Store</h3>
+    <p>Email: info@rewoven.com</p>
+    <p>Phone: +63 912 345 6789</p>
+    <p>Quezon City, Philippines</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
